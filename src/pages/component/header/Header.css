@@ -1,0 +1,134 @@
+.header{
+    background-color: #003580;
+    color: white;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.headerContainer{
+    width: 100%;
+    max-width: 1024px;
+    margin: 20px 0 100px 0;
+}
+
+
+
+.headerList{
+    display: flex;
+    gap: 10px;
+}
+.headerListItem{
+    display: flex;
+    align-items: center;
+    gap:10px;
+    cursor: pointer;
+    padding: 8px 16px;
+}
+
+.headerListItem:hover{
+    background-color: rgb(110, 162, 162);
+    padding: 8px 16px;
+    border-radius: 20px;
+}
+.headerListItem.active{
+    border:  1px solid white;
+    padding: 8px 16px;
+    border-radius: 20px;
+}
+
+.headerButton{
+    background-color: #0072c1;
+    padding: 8px 16px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.headerButton:hover{
+    background-color:white;
+    color: #0072c1;
+    border:1px solid #0072c1;
+}
+
+.headerSearch{
+    height: 30px;
+    background-color: white;
+    border: 2px solid #febb02   ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:10px 0 ;
+    border-radius: 10px;
+    position: absolute;
+    bottom: -25px;
+    width: 100%;
+    max-width:1024px ;
+    color: #0072c1;
+}
+
+.headerIcon{
+    color: #0072c1;
+}
+
+.headerSearchText{
+    cursor: pointer;
+}
+
+.headerSearchItem{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.headerSearchInput{
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+
+.date{
+    position: absolute;
+    top: 50px;
+    display: none;
+    background-color: rgb(249, 237, 237);
+    z-index: 2;
+    border: 1px solid #febb02;
+    border-radius: 6px;
+}
+
+.options{
+    position: absolute;
+    top: 50px;
+    background-color: rgb(249, 237, 237);
+    color: #0072c1;
+    border: 1px solid #febb02;
+    border-radius:  6px;
+    z-index: 2;
+}
+
+.optionsItem{
+    width: 220px;
+    display: flex;
+    justify-content: space-between;
+    margin: 12px;
+}
+
+.optionsCounter{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.optionsButtonCounter{
+    border: 1px solid #0072c1;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: white;
+}
+
+.optionsButtonCounter:hover{
+    background-color: #0072c1;
+}
